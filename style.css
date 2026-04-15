@@ -97,7 +97,7 @@ section .reels .reel .bottom h2 {
   line-height: 1.5;
 }
 section .reels .reel .right {
-  width: 40px;
+  width: 60px;
   position: absolute;
   bottom: 12%;
   right: 0;
