@@ -68,18 +68,9 @@ const data = [
         "comment": 55,
         "share": 95
     },
+
     {
         "id": 8,
-        "avtar": "https://images.unsplash.com/photo-1600267240593-3fc5ad866e67?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
-        "username": "@model-vibes",
-        "image": "https://images.unsplash.com/photo-1600267240593-3fc5ad866e67?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
-        "title": "Model vibes on set - #vibes #model",
-        "like": 130,
-        "comment": 15,
-        "share": 30
-    },
-    {
-        "id": 9,
         "avtar": "https://images.unsplash.com/photo-1611760543246-956539975518?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8",
         "username": "@trend-model",
         "image": "https://images.unsplash.com/photo-1611760543246-956539975518?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8",
@@ -88,18 +79,9 @@ const data = [
         "comment": 35,
         "share": 70
     },
+
     {
-        "id": 10,
-        "avtar": "https://images.unsplash.com/photo-1653370767081-3d5e8d5d13b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ2fHx8ZW58MHx8fHx8",
-        "username": "@glow-model",
-        "image": "https://images.unsplash.com/photo-1653370767081-3d5e8d5d13b0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ2fHx8ZW58MHx8fHx8",
-        "title": "Glow up session - #glow #beauty",
-        "like": 190,
-        "comment": 28,
-        "share": 55
-    },
-    {
-        "id": 11,
+        "id": 9,
         "avtar": "https://images.unsplash.com/photo-1670265308734-678171190076?q=80&w=671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "username": "@fashion-runner",
         "image": "https://images.unsplash.com/photo-1670265308734-678171190076?q=80&w=671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -109,36 +91,7 @@ const data = [
         "share": 25
     },
     {
-        "id": 12,
-        "avtar": "https://plus.unsplash.com/premium_photo-1663051195247-38c48597b9f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
-        "username": "@style-runway",
-        "image": "https://plus.unsplash.com/premium_photo-1663051195247-38c48597b9f6?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
-        "title": "Runway style blast - #style #runway",
-        "like": 220,
-        "comment": 33,
-        "share": 65
-    }, {
-        "id": 13,
-        "avtar": "https://images.unsplash.com/photo-1719680356714-a6b1fa4c6eb2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "username": "@editorial-look",
-        "image": "https://images.unsplash.com/photo-1719680356714-a6b1fa4c6eb2?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "Editorial shoot magic - #editorial #model",
-        "like": 260,
-        "comment": 40,
-        "share": 85
-    },
-    {
-        "id": 14,
-        "avtar": "https://plus.unsplash.com/premium_photo-1669951867055-02d679129190?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "username": "@pose-queen",
-        "image": "https://plus.unsplash.com/premium_photo-1669951867055-02d679129190?q=80&w=765&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "Pose queen moments - #pose #queen",
-        "like": 270,
-        "comment": 48,
-        "share": 90
-    },
-    {
-        "id": 15,
+        "id": 10,
         "avtar": "https://plus.unsplash.com/premium_photo-1769105242703-9f5251fcaca7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "username": "@fashion-vision",
         "image": "https://plus.unsplash.com/premium_photo-1769105242703-9f5251fcaca7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -146,56 +99,6 @@ const data = [
         "like": 160,
         "comment": 21,
         "share": 42
-    },
-    {
-        "id": 16,
-        "avtar": "https://images.unsplash.com/photo-1703056715594-062760a8b9ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
-        "username": "@model-scene",
-        "image": "https://images.unsplash.com/photo-1703056715594-062760a8b9ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDl8fHxlbnwwfHx8fHw%3D",
-        "title": "Behind the scenes - #bts #model",
-        "like": 145,
-        "comment": 19,
-        "share": 38
-    },
-    {
-        "id": 17,
-        "avtar": "https://plus.unsplash.com/premium_photo-1661964240268-cd66b75dc88d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-        "username": "@runway-glam",
-        "image": "https://plus.unsplash.com/premium_photo-1661964240268-cd66b75dc88d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D",
-        "title": "Glam runway show - #glam #runway",
-        "like": 310,
-        "comment": 60,
-        "share": 100
-    },
-    {
-        "id": 18,
-        "avtar": "https://plus.unsplash.com/premium_photo-1661964246418-1be9d02c89de?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "username": "@style-model",
-        "image": "https://plus.unsplash.com/premium_photo-1661964246418-1be9d02c89de?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "Style model shoot - #style #model",
-        "like": 135,
-        "comment": 17,
-        "share": 32
-    },
-    {
-        "id": 19,
-        "avtar": "https://plus.unsplash.com/premium_photo-1661964321544-94fced60e490?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8",
-        "username": "@fashion-shots",
-        "image": "https://plus.unsplash.com/premium_photo-1661964321544-94fced60e490?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDExfHx8ZW58MHx8fHx8",
-        "title": "Stunning fashion shots - #fashion #shots",
-        "like": 280,
-        "comment": 50,
-        "share": 88
-    },
-    {
-        "id": 20,
-        "avtar": "https://plus.unsplash.com/premium_photo-1727427850318-35cb18b7836b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIxfHx8ZW58MHx8fHx8",
-        "username": "@elite-runway",
-        "image": "https://plus.unsplash.com/premium_photo-1727427850318-35cb18b7836b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDIxfHx8ZW58MHx8fHx8",
-        "title": "Elite runway showcase - #elite #runway",
-        "like": 330,
-        "comment": 65,
-        "share": 110
     }
 ];
 
