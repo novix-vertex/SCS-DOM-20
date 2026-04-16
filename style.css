@@ -53,6 +53,13 @@ section .reels .reel img {
      object-fit: cover;
   border-radius: 10px;
 }
+section .reels .reel video {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
 section .reels .reel .bottom {
   background: linear-gradient(to bottom, transparent, #000);
   display: flex;
@@ -105,6 +112,9 @@ section .reels .reel .right {
   flex-direction: column;
   gap: 15px;
   text-align: center;
+}
+section .reels .reel .right .love {
+  color: red;
 }
 section .reels .reel .right i {
   color: #fff;

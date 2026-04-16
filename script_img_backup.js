@@ -7,8 +7,7 @@ const data = [
         "title": "High fashion shoot vibes - #fashion #model",
         "like": 200,
         "comment": 30,
-        "share": 60,
-        "video": "https://www.pexels.com/download/video/32908600/"
+        "share": 60
     },
     {
         "id": 2,
@@ -18,8 +17,7 @@ const data = [
         "title": "Runway glam moments - #model #runway",
         "like": 120,
         "comment": 25,
-        "share": 40,
-        "video": "https://www.pexels.com/download/video/32924050/"
+        "share": 40
     }, {
         "id": 3,
         "avtar": "https://images.unsplash.com/photo-1635853670663-12e40fcb0462?q=80&w=664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
@@ -28,8 +26,7 @@ const data = [
         "title": "Glam studio session - #glam #photoshoot",
         "like": 180,
         "comment": 20,
-        "share": 50,
-        "video": "https://www.pexels.com/download/video/25456498/"
+        "share": 50
     },
     {
         "id": 4,
@@ -39,8 +36,7 @@ const data = [
         "title": "Catwalk highlights - #runway #style",
         "like": 250,
         "comment": 45,
-        "share": 80,
-        "video": "https://www.pexels.com/download/video/29532464/"
+        "share": 80
     },
     {
         "id": 5,
@@ -50,8 +46,7 @@ const data = [
         "title": "Style showcase - #fashion #diva",
         "like": 140,
         "comment": 18,
-        "share": 35,
-        "video": "https://www.pexels.com/download/video/5780034/"
+        "share": 35
     },
     {
         "id": 6,
@@ -61,8 +56,7 @@ const data = [
         "title": "Perfect pose moments - #pose #model",
         "like": 175,
         "comment": 22,
-        "share": 48,
-        "video": "https://www.pexels.com/download/video/16423978/"
+        "share": 48
     },
     {
         "id": 7,
@@ -72,8 +66,7 @@ const data = [
         "title": "Catwalk energy - #catwalk #fashion",
         "like": 300,
         "comment": 55,
-        "share": 95,
-        "video": "https://www.pexels.com/download/video/6289336/"
+        "share": 95
     },
 
     {
@@ -84,8 +77,7 @@ const data = [
         "title": "Trending fashion looks - #trend #style",
         "like": 210,
         "comment": 35,
-        "share": 70,
-        "video": "https://www.pexels.com/download/video/6281228/"
+        "share": 70
     },
 
     {
@@ -96,8 +88,7 @@ const data = [
         "title": "Runway practice shots - #runway #practice",
         "like": 110,
         "comment": 12,
-        "share": 25,
-        "video": "https://www.pexels.com/download/video/19981541/"
+        "share": 25
     },
     {
         "id": 10,
@@ -107,16 +98,15 @@ const data = [
         "title": "Visionary fashion shoot - #vision #fashion",
         "like": 160,
         "comment": 21,
-        "share": 42,
-        "video": "https://www.pexels.com/download/video/20712255/"
+        "share": 42
     }
 ];
 
 let sum = '';
 data.forEach(function (reel) {
     sum = sum + `<div class="reel">
-                    <video autoplay loop muted src="${reel.video}"
-                        alt="vid"></video>
+                    <img src="${reel.image}"
+                        alt="img">
 
                     <div class="bottom">
                         <div class="bottom-top">
@@ -140,7 +130,8 @@ data.forEach(function (reel) {
                         <div class="share">
                             <h4><i class="ri-share-forward-line"></i></h4>
                             <h6>${reel.share}</h6>
-                        </div>                        <div class="menu">
+                        </div>
+                        <div class="menu">
                             <h4><i class="ri-more-2-fill"></i></h4>
                             <h6></h6>
                         </div>

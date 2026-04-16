@@ -56,6 +56,14 @@ section {
 
             }
 
+            video {
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+                border-radius: 10px;
+
+            }
+
             .bottom {
                 background: linear-gradient(to bottom, transparent, #000);
                 display: flex;
@@ -117,6 +125,10 @@ section {
                 flex-direction: column;
                 gap: 15px;
                 text-align: center;
+
+                .love {
+                    color: red;
+                }
 
                 i {
                     color: #fff;
