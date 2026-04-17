@@ -113,6 +113,7 @@ const data = [
 ];
 
 let sum = '';
+let reels = document.querySelector(".reels");
 data.forEach(function (reel) {
     sum = sum + `<div class="reel">
                     <video autoplay loop muted src="${reel.video}"
@@ -148,5 +149,4 @@ data.forEach(function (reel) {
                 </div>`;
 });
 
-let reels = document.querySelector(".reels");
 reels.innerHTML = sum;
