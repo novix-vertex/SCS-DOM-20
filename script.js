@@ -178,20 +178,39 @@ addReels();
 
 reels.addEventListener("click", function (dets) {
     let id = dets.target.id;
+    let reel = data[id];
 
-    if (dets.target.classList.contains("like")) {
+    if (dets.target.closest(".like")) {
+        reel.isLiked = !reel.isLiked;
+        reel.like += reel.isLiked ? 1 : -1;
 
-        data[id].isLiked = !data[id].isLiked;
-        data[id].like += data[id].isLiked ? 1 : -1;
+        let like_div = dets.target.closest(".like");
+        like_div.querySelector("h6").innerText = reel.like;
 
-        document.querySelectorAll(".like h6")[id].innerText = data[id].like;
+        let like_icon = like_div.querySelector("i");
+        if (reel.isLiked) {
+
+            like_icon.classList.remove("ri-heart-line");
+            like_icon.classList.add("ri-heart-fill", "love");
+        } else {
+            like_icon.classList.remove("ri-heart-fill", "love");
+            like_icon.classList.add("ri-heart-line");
+        }
 
     }
-    if (dets.target.classList.contains("subscribe")) {
-        //  console.log("sub")
-        data[id].isFollowed = !data[id].isFollowed;
-        //addReels();
+    if (dets.target.closest(".subscribe")) {
+        reel.isFollowed = !reel.isFollowed;
+
+        let subscribe_btn = dets.target;
+        if (reel.isFollowed) {
+            subscribe_btn.innerText = "Unsubscribe";
+        } else {
+            subscribe_btn.innerText = "Subscribe";
+        }
+
     }
+
+
 });
 
 function checkReel(isFirst = false) {
