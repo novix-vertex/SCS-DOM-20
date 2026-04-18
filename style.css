@@ -59,6 +59,7 @@ section .reels .reel video {
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 10px;
+  cursor: pointer;
 }
 section .reels .reel .bottom {
   background: linear-gradient(to bottom, transparent, #000);
@@ -126,7 +127,7 @@ section .reels .reel .right .love {
 }
 section .reels .reel .right i {
   color: #fff;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
 }
 section .reels .reel .right h6 {

@@ -10,7 +10,7 @@ const data = [
         "isFollowed": true,
         "comment": 30,
         "share": 60,
-        "video": "https://www.pexels.com/download/video/28667667/"
+        "video": "vid1.mp4"
     },
     {
         "id": 2,
@@ -23,7 +23,7 @@ const data = [
         "isFollowed": true,
         "comment": 25,
         "share": 40,
-        "video": "https://www.pexels.com/download/video/32924050/"
+        "video": "vid2.mp4"
     },
     {
         "id": 3,
@@ -36,109 +36,107 @@ const data = [
         "isFollowed": false,
         "comment": 20,
         "share": 50,
-        "video": "https://www.pexels.com/download/video/25456498/"
+        "video": "vid3.mp4"
     },
     {
         "id": 4,
         "avtar": "https://images.unsplash.com/photo-1738159128157-a9c87ce99314?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "username": "@drink-delight",
+        "username": "@yummy",
         "image": "https://images.unsplash.com/photo-1738159128157-a9c87ce99314?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "Refreshing summer drinks 🍹 #drinks #refreshing",
+        "title": "Yummy Desert 🍰 #sweet #desserts",
         "like": 250,
         "isLiked": false,
         "isFollowed": false,
         "comment": 45,
         "share": 80,
-        "video": "https://www.pexels.com/download/video/29532464/"
+        "video": "vid4.mp4"
     },
     {
         "id": 5,
         "avtar": "https://images.unsplash.com/photo-1587567169399-b0fb22571ad8?q=80&w=706&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "username": "@foodie-bites",
+        "username": "@chef-special",
         "image": "https://images.unsplash.com/photo-1587567169399-b0fb22571ad8?q=80&w=706&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "Delicious street food moments 🍔 #foodie #streetfood",
+        "title": "Chef’s special dish 🍽️ #chef #foodlover",
         "like": 140,
         "isLiked": true,
         "isFollowed": false,
         "comment": 18,
         "share": 35,
-        "video": "https://www.pexels.com/download/video/5780034/"
+        "video": "vid5.mp4"
     },
     {
         "id": 6,
         "avtar": "https://images.unsplash.com/photo-1649414114385-87c211edc38a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-        "username": "@chef-special",
+        "username": "@foodie-bites",
         "image": "https://images.unsplash.com/photo-1649414114385-87c211edc38a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
-        "title": "Chef’s special dish 🍽️ #chef #foodlover",
+        "title": "Delicious street food moments 🍜 #foodie #streetfood",
         "like": 175,
         "isLiked": false,
         "isFollowed": true,
         "comment": 22,
         "share": 48,
-        "video": "https://www.pexels.com/download/video/16423978/"
+        "video": "vid6.mp4"
     },
     {
         "id": 7,
         "avtar": "https://images.unsplash.com/photo-1570985333372-d735daa2596f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
-        "username": "@noodle-junction",
+        "username": "@drink-delight",
         "image": "https://images.unsplash.com/photo-1570985333372-d735daa2596f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D",
-        "title": "Chineese vibes 🔥 #chow #noodels",
+        "title": "Refreshing summer drinks 🍹 #drinks #refreshing",
         "like": 270,
         "isLiked": false,
         "isFollowed": false,
         "comment": 72,
         "share": 75,
-        "video": "https://www.pexels.com/download/video/6289336/"
+        "video": "vid7.mp4"
     },
     {
         "id": 8,
         "avtar": "https://images.unsplash.com/photo-1611760543246-956539975518?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8",
-        "username": "@food-trending",
+        "username": "@icecream-trending",
         "image": "https://images.unsplash.com/photo-1611760543246-956539975518?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8",
-        "title": "Trending food hacks 🍜 #foodtrend #viral",
+        "title": "Trending icecream art 🍨 #foodtrend #viral",
         "like": 210,
         "isLiked": false,
         "isFollowed": false,
         "comment": 35,
         "share": 70,
-        "video": "https://www.pexels.com/download/video/6281228/"
+        "video": "vid8.mp4"
     },
     {
         "id": 9,
         "avtar": "https://images.unsplash.com/photo-1670265308734-678171190076?q=80&w=671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "username": "@gourmet-vision",
+        "username": "@coffee-art",
         "image": "https://images.unsplash.com/photo-1670265308734-678171190076?q=80&w=671&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "Gourmet plating art 🍴 #gourmet #fineDining",
+        "title": "Coffee art ☕ #drink #coffee",
         "like": 110,
         "isLiked": true,
         "isFollowed": true,
         "comment": 12,
         "share": 25,
-        "video": "https://www.pexels.com/download/video/19981541/"
+        "video": "vid9.mp4"
     },
     {
         "id": 10,
         "avtar": "https://plus.unsplash.com/premium_photo-1769105242703-9f5251fcaca7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "username": "@quick-bites",
+        "username": "@coffee-artist",
         "image": "https://plus.unsplash.com/premium_photo-1769105242703-9f5251fcaca7?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "title": "Quick snack ideas 🍟 #snacks #fastfood",
+        "title": "Making coffee is an art ☕ #drink #coffeetime",
         "like": 160,
         "isLiked": true,
         "isFollowed": false,
         "comment": 21,
         "share": 42,
-        "video": "https://www.pexels.com/download/video/20712255/"
+        "video": "vid10.mp4"
     }
 ];
 
 let reels = document.querySelector(".reels");
-
-
 function addReels() {
     let sum = '';
     data.forEach(function (reel, idx) {
         sum = sum + `<div class="reel">
-                    <video autoplay loop src="${reel.video}"
+                    <video id = ${idx} autoplay loop muted src="${reel.video}"
                         alt="vid"></video>
 
                     <div class="bottom">
@@ -147,7 +145,7 @@ function addReels() {
                                 src="${reel.avtar}"
                                 alt="avtar">
                             <h3 class="username">${reel.username}</h3>
-                            <button id = ${idx} class="subscribe">${reel.isFollowed ? 'Unsubscribe' : 'Subscribe'}</button>
+                            <button id = ${idx} class="vid subscribe" >${reel.isFollowed ? 'Unsubscribe' : 'Subscribe'}</button>
                         </div>
                         <h2 class="title">${reel.title}</h2>
                     </div>
@@ -180,19 +178,48 @@ addReels();
 
 reels.addEventListener("click", function (dets) {
     let id = dets.target.id;
-    if (dets.target.className === "like") {
 
-        if (data[id].isLiked) {
-            data[id].like--;
-        } else {
-            data[id].like++;
-        }
+    if (dets.target.classList.contains("like")) {
+
         data[id].isLiked = !data[id].isLiked;
-        addReels();
-    }
-    if (dets.target.className === "subscribe") {
+        data[id].like += data[id].isLiked ? 1 : -1;
 
+        document.querySelectorAll(".like h6")[id].innerText = data[id].like;
+
+    }
+    if (dets.target.classList.contains("subscribe")) {
+        //  console.log("sub")
         data[id].isFollowed = !data[id].isFollowed;
-        addReels();
+        //addReels();
     }
 });
+
+function checkReel(isFirst = false) {
+    const all_reels = document.querySelectorAll(".reel");
+    let center = window.innerHeight / 2;
+
+    all_reels.forEach((reel) => {
+        // console.log(reel);
+        const rect = reel.getBoundingClientRect();
+        const video = reel.querySelector("video");
+
+        if (isFirst) {
+            document.addEventListener("click", () => {
+                video.muted = false;
+            }, { once: true });
+        } else {
+
+            if (rect.top <= center && rect.bottom >= center) {
+                video.muted = false;
+                video.play();
+            } else {
+                video.muted = true;
+                video.pause();
+            }
+        }
+    });
+}
+
+reels.addEventListener("scroll", () => checkReel());
+
+window.addEventListener("load", () => checkReel(true));
